@@ -6,14 +6,11 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(
-    const FriendlyChatApp(),
-  );
+    const FriendlyChatApp());
 }
 
 class FriendlyChatApp extends StatelessWidget {
-  const FriendlyChatApp({
-    Key? key,
-  }) : super(key: key);
+  const FriendlyChatApp({Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -26,8 +23,7 @@ class FriendlyChatApp extends StatelessWidget {
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({
-    Key? key,
-  }) : super(key: key);
+    Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
